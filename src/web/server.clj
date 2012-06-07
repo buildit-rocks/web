@@ -9,3 +9,7 @@
     (server/start port {:mode mode
                         :ns 'web})))
 
+;; the handler for rinf and the war file
+(def handler
+  (server/gen-handler {:mode :prod
+                       :ns 'web}))
