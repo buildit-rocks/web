@@ -1,0 +1,5 @@
+www:
+    type: java
+
+data:
+    type: mongodb
