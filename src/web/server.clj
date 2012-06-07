@@ -1,5 +1,7 @@
 (ns web.server
-  (:require [noir.server :as server]))
+  (:require [noir.server :as server]
+            [web.views.common]
+            [web.views.welcome]))
 
 (server/load-views "src/web/views/")
 
